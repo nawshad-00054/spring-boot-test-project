@@ -1,0 +1,75 @@
+Check following Parent and Child Task and gather necessary resource for Prepare WBS
+Parent Task:
+System Design - Team GPB-2
+Database Design - Team GPB-1
+Codebase Design - Team GPB-3
+Child Task List for System Design:
+1. Identify system requirements:
+   - Analyze user needs and gather functional and non-functional requirements.
+   - Prioritize requirements and identify any conflicting or ambiguous requirements.
+2. Define system architecture:
+   - Identify the main components and subsystems of the system.
+   - Determine the interactions and dependencies between the components.
+   - Design the overall system structure and its relationship with external systems.
+3. Design system interfaces:
+   - Define the interfaces between the system and external systems or modules.
+   - Specify the methods, protocols, and data formats for data exchange.
+   - Design user interfaces and interaction flows.
+4. Determine system behavior:
+   - Define the system's response to different inputs and events.
+   - Specify the control flow and decision-making processes.
+   - Design error handling and exception management mechanisms.
+5. Consider security measures:
+   - Identify potential security threats and vulnerabilities.
+   - Design authentication and authorization mechanisms.
+   - Define data encryption and secure communication protocols.
+Child Task List for Database Design:
+1. Gather requirements for data storage and access:
+   - Identify the data entities and their attributes.
+   - Determine the relationships between entities.
+   - Define the data integrity and validation rules.
+2. Design data model:
+   - Identify the entities, attributes, and relationships of the system's data.
+   - Define the database schema and data storage mechanisms.
+   - Determine data access and retrieval strategies.
+3. Design the conceptual data model:
+   - Create an entity-relationship (ER) diagram representing the data entities and relationships.
+   - Refine the ER diagram based on feedback and requirements.
+4. Normalize the data model:
+   - Apply normalization techniques to ensure data integrity and minimize redundancy.
+   - Identify functional dependencies and eliminate data anomalies.
+5. Design the logical data model:
+   - Convert the conceptual data model into a logical model using a relational data model.
+   - Specify the tables, attributes, and primary/foreign key relationships.
+6. Optimize the data model:
+   - Analyze the expected data volume and usage patterns.
+   - Optimize the table structures and indexing for efficient data retrieval and manipulation.
+Child Task List for Codebase Design:
+1. Define the code organization and structure:
+   - Determine the overall codebase structure, such as modules, packages, or layers.
+   - Define naming conventions and guidelines for code organization.
+2. Design the application architecture:
+   - Identify the main components and their responsibilities.
+   - Determine the interactions and dependencies between components.
+   - Choose appropriate design patterns and architectural styles.
+3. Define class and function design:
+   - Design classes and their attributes and methods.
+   - Specify function signatures, input/output parameters, and responsibilities.
+4. Address code reusability and modularity:
+   - Identify opportunities for code reuse.
+   - Design reusable modules or libraries.
+   - Implement code modularity to improve maintainability and extensibility.
+5. Design error handling and exception management:
+   - Define error handling mechanisms, including exception types and error messages.
+   - Design a consistent approach for logging and reporting errors.
+6. Consider code performance and optimization:
+   - Identify performance bottlenecks and critical code sections.
+   - Optimize algorithms and data structures.
+   - Consider caching, concurrency, and resource management techniques.
+7. Incorporate coding best practices and standards:
+   - Follow coding conventions and style guidelines.
+   - Apply design principles, such as SOLID and DRY.
+   - Use appropriate design patterns and idiomatic coding practices.
+8. Document the codebase design:
+   - Provide code documentation, such as comments, inline documentation, or code annotations.
+   - Document code dependencies, interfaces, and interactions.
